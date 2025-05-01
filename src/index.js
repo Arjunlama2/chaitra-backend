@@ -8,6 +8,7 @@ const app=express()
 const cors=require("cors")
 const product=require("./routes/product.routes")
 // middleware
+require("./config/database")
 app.get("/",(req,res)=>{
     res.send("Server is Listining")
 })
@@ -31,6 +32,8 @@ app.listen(port,()=>{
 //install postman 
 //Install MONGODB
 //install MOnogsh cell
+// jwt
+//bycript
 
 
-
+ 
