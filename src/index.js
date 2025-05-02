@@ -15,7 +15,7 @@ app.get("/",(req,res)=>{
 dotenv.config()
 
 const port=process.env.PORT
-
+app.use(express.json())
 
 
 // app.get("/test",isAutheticated,getuse)
