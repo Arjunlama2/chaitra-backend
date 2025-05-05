@@ -1,5 +1,5 @@
 const express=require("express")
-const { isAutheticated } = require("./middleware/auth")
+
 const { getuse } = require("./controller/controller.user")
 const { handleError } = require("../handleerror")
 const user=require("./routes/index")
